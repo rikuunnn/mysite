@@ -1,0 +1,466 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.clearfix{
+  content: "";
+  display:block;
+  clear: both;
+}
+header{
+  width: 100%;
+height: 70px;
+background-color: #EC715F;
+}
+.container{
+  width: 1024px;
+  margin:0 auto;
+}
+.logo{
+  height: 70px;
+  float: left;
+}
+.nav-list{
+  float: right;
+}
+.nav-list-item{
+  list-style: none;
+  display: inline-block;
+  font-size: :16px;
+  color: #FAFAFA;
+  padding: 0 30px;
+  line-height: 70px;
+  width: 120px;
+}
+.main-visual{
+  background-image: url("img/mv.png");
+  width: 100%;
+  background-size: cover;
+  height: 650px;
+}
+.main-visual-content{
+  text-align: center;
+}
+.sp-main-visual-content {
+  display: none;
+}
+h1{
+  font-size: 64px;
+  color: #FAFAFA;
+  margin: 0 0 0 10px;
+  padding: 200px 0 0 0 ;
+}
+.visual-text{
+  font-size: 20px;
+  color:#FAFAFA;
+}
+.portfolio{
+  width: 100%;
+  background-color: #ECEFF1;
+  background-size: cover;
+  height: 900px
+  }
+.portfolio-conotet{
+width: 1024px;
+margin: 0 auto;
+}
+.portfolio-text{
+    font-size: 32px;
+    color: 000000;
+    text-align: center;
+    padding-top: 90px;
+  }
+.header-text{
+  padding-top: 30px;
+  text-align:center;
+  font-size: 16px;
+  color: #000000;
+}
+  .header::after{
+    content: :"";
+    display: block;
+    width: 70px;
+    height: 3px;
+    margin: 8px auto 0 auto;
+    background-color: #EC715F;
+  }
+  .main-box{
+  margin:0 auto;
+  padding: 30px 0 90px 0;
+  width: 920px;
+  }
+  .content-box{
+    width: 300px;
+    height: 250px;
+    float: left;
+
+    background-size: cover;
+    background-position: center;
+  }
+  .box1{
+    background-image: url("img/sketch.jpg");
+    margin-right: 10px;
+  }
+  .box2{
+    background-image: url("img/websuku.png");
+    margin-right: 10px;
+  }
+.box3{
+  background-image: url("img/write.jpg" );
+}
+.box4{
+  margin-top: 10px;
+  margin-right: 10px;
+
+  background-image: url("img/webcamp.png");
+}
+.box5{
+  background-image: url("img/talk.jpg");
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.box6{
+  background-image: url("img/webcamp-mother.png");
+  margin-top: 10px;
+}
+.Feature{
+  width: 100%;
+  height: 700px;
+}
+.feature-content{
+  width: 1024px;
+  margin: 0 auto;
+}
+.feature-text{
+ text-align: center;
+ padding-top: 90px;
+ font-size: 32px;
+ color: #000000;
+}
+.heading-text{
+  font-size: 16px;
+  text-align : center;
+  padding-top: 30px;
+}
+.strength-group{
+	width: 980px;
+	padding: 30px 0 90px 0;
+	margin: 0 auto;
+}
+
+.strength{
+	float: left;
+	width: 320px;
+	margin-right: 10px;
+	text-align: center;
+	font-size: 60px;
+}
+
+.strength:last-child{
+	margin-right: 0;
+}
+
+.strength-title{
+	padding: 10px 0;
+	font-size: 20px;
+}
+
+.strength-text{
+	text-align: left;
+	font-size: 16px;
+}
+
+.fab{
+  font-size:60px;
+  text-rendering: auto;
+  display: inline-block;
+  padding-right: 30px;
+
+}
+.Profile{
+  background-color: #ECEFF1;
+  background-position: center;
+  background-size: cover;
+  height: 570px;
+}
+.Profile-content{
+  width: 1024px;
+  margin: 0 auto;
+}
+.Profile-heading{
+  font-size: 32px;
+  padding-top: 90px;
+  text-align: center;
+}
+.Profile-text{
+  font-size: 16px;
+  color: #000000;
+  text-align: center;
+  padding-top: 30px;
+}
+.introduction{
+  padding: 30px 0 90px 0;
+}
+.photo{
+  float: left;
+  width: 50%
+}
+.center {
+  margin: 0 auto;
+  width: 250px;
+}
+.details{
+  float: right;
+  width: 50%;
+
+}
+.icon{
+  width:250px;
+  height: 250px;
+  border-radius:125px;
+}
+
+.underbar {
+  margin-top: 8px;
+  height: 2px;
+  width: 70px;
+  background-color: red;
+  margin: 0 auto;
+}
+.Contact{
+  width: 100%;
+}
+.contact-contet{
+  width: 800px;
+  margin: 0 auto;
+}
+.contact-heading{
+  text-align: center;
+  margin-top: 90px;
+  color: #000000;
+}
+.contact-text{
+  margin-top: 30px;
+  text-align: center;
+  font-size: 16px;
+  color: #000000;
+}
+.contact-form{
+  padding: 30px 0 90px 0;
+}
+.contact-box{
+  float: left;
+  width: 50%;
+  padding-left: 360px;
+}
+.sns{
+display: flex;
+width: 50%;
+padding-right: 360px;
+
+}
+.sns_icon{
+  width: 170px;
+  margin: 0 auto;
+}
+.sns .fab{
+  display: inline-block;
+}
+.icon-box{
+  display: flex;
+}
+.mail{
+  font-size: 20px;
+
+}
+.tel{
+  font-size: 20px;
+}
+.footer{
+  width: 100%;
+  background-color: #EC715F;
+  height: 60px;
+}
+h5{
+  text-align: center;
+  line-height: 60px;
+  color: #FAFAFA;
+
+}
+/*レスポンシブデザイン*/
+@media screen and (max-width:767px){
+header{
+  height: 50px;
+}
+.logo{
+  height: 50px;
+}
+.container{
+  width: 90%;
+}
+.menu-box{
+  float: right;
+  width: 40px;
+  height: 40px;
+  margin-right: 5%;
+  border: 1px solid #FAFAFA;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.list-bar {
+  height: 2px;
+  width: 80%;
+  background-color: white;
+  text-align: center;
+  margin: 20% auto 0;
+}
+.main-visual-content {
+  display: none;
+}
+.sp-main-visual-content{
+  background-image: url("img/code.png");
+  width: 100%;
+  background-size: cover;
+  height: 650px;
+  display: block;
+  text-align: center;
+}
+h1{
+  font-size:40px;
+  margin: 0 0 0 10px;
+  padding: 200px 0 0 0 ;
+}
+.viaual-text{
+  font-size: 18px;
+  color: #FAFAFA;
+}
+
+.portfolio{
+  height: auto;
+}
+.portfolio-content{
+ width: 90%;
+}
+.portfolio-text{
+  font-size: 32px;
+  color: #000000;
+  padding-top: 90px;
+}
+.underbar{
+  height: 3px;
+  width: 70px;
+  color: red;
+}
+.header-text{
+  font-size: 16px;
+  color: #000000;
+  padding-top: 30px;
+}
+.main-box{
+  width: 300px;
+}
+.content-box{
+  float: none;
+}
+.sp-none{
+  display: none;
+
+}
+.Feature{
+  background-size: cover;
+  background-position: center;
+  height: auto;
+}
+.feature-content{
+  width: 90%;
+}
+.strength-group{
+  width: 320px;
+}
+.strength{
+  float: none;
+  padding-top:10px;
+}
+.Profile{
+  height: auto;
+}
+.Profile-heading{
+  padding-top:90px;
+}
+.Profile-text{
+  padding-top:30px;
+}
+
+.name{
+  padding-top:20px;
+}
+.name-detail{
+  padding-top: 5px;
+}
+.my-slills{
+  padding-top:20px;
+}
+.skills-detail{
+  padding-top:5px;
+  padding-bottom: 90px;
+}
+.Profile-content{
+  width: 90%;
+}
+.introduction{
+  text-align: center;
+}
+.photo{
+  float: none;
+  width: 100%;
+
+}
+.mail{
+  padding-bottom: 5px;
+}
+.tel{
+  padding-top:20px;
+padding-bottom: 5px;
+}
+.details{
+  display: block;
+  width: 100%;
+  float: none;
+}
+.Contact{
+  display: block;
+  height: auto;
+}
+.contact-form {
+  text-align: center;
+  width: 800px;
+  padding: 30px 0 90px 0;
+  margin: 0 auto;
+  padding-left: 250px;
+}
+
+.contact-box {
+  float: none;
+  padding: 0;
+}
+.sns{
+display: block;
+padding: 0;
+}
+.sns-bpx{
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+.sns_icon{
+
+}
+.icon-box{
+  display: flex;
+  float: left;
+}
+footer{
+  background-size: cover;
+  background-position: center;
+}
+}
